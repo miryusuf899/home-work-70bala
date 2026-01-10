@@ -58,7 +58,7 @@ header
 }
 .h1
 {
-    font-size: 40px;
+    font-size: 35px;
 }
 .inBox1 button
 {
@@ -72,10 +72,108 @@ header
 {
     display: none;
 }
+.box1
+{
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.inBox2
+{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px;
+}
+.inBox3
+{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px;
+}
+.inBox2 div
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: start;
+}
+.inBox3 div
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: start;
+}
+.button1
+{
+    padding: 20px 60px;
+    background-color: rgba(7, 175, 145, 1);
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+.htele
+{
+    display: none;
+}
 
 
 @media (max-width:510px)
 {
+    .button1
+    {
+        width: 90%;
+        margin: auto;
+    }
+    .h11
+    {
+        margin: auto;
+    }
+    .inBox2 div
+    {
+        text-align: center;
+    }
+    .inBox2
+    {
+        width: 90%;
+        text-align: center;
+        line-height: 30px;
+        align-items: center;
+    }
+    .inBox3
+    {
+        width: 90%;
+        text-align: center;
+        line-height: 30px;
+        align-items: center;
+    }
+    .htele
+    {
+        display: block;
+    }
+    .img2
+    {
+        width: 90%;
+    }
+    .box1
+    {
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+    .box2
+    {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .htele1
+    {
+        display: none;
+    }
     .ptele1
     {
         display: block;
