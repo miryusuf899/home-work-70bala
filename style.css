@@ -355,9 +355,99 @@ header
     row-gap: 40px;
     color: white;
 }
+.box6
+{
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    justify-content: start;
+}
+.qatorho
+{
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(233, 233, 233, 1);
+}
+.pSeriy
+{
+    color: rgba(85, 85, 85, 1);
+    font-size: 14px;
+}
+.modul1
+{
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.09);
+    border-radius: 10px;
+}
+.modulus
+{
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.09);
+}
+.buttonGradient1
+{
+    padding: 20px 45px;
+    color: white;
+    background: linear-gradient(to left, rgba(1, 108, 168, 1),rgba(97, 181, 228, 1));
+    border: none;
+    border-radius: 10px;
+}
+.ptelele
+{
+    display: none;
+}
+.imgtele
+{
+    display: none;
+}
 
 @media (max-width:510px)
 {
+    .buttoncomp
+    {
+        display: none;
+    }
+    .imgtele
+    {
+        display: block;
+    }
+    .img3
+    {
+        position: relative;
+        top: 40px;
+    }
+    .modulus
+    {
+        flex-direction: column;
+    }
+    .ptelele
+    {
+        display: block;
+    }
+    .pcomp
+    {
+        display: none;
+    }
+    .row1
+    {
+        flex-direction: column;
+        text-align: center;
+    }
+    .qatorho
+    {
+        text-align: center;
+        flex-direction: column;
+        gap: 10px;
+    }
     .imgPlayer
     {
         width: 70px;
