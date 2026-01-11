@@ -640,9 +640,59 @@ header
     width: 220px;
     text-align: center;
 }
+.box14
+{
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.gridkati
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 20px;
+}
+.item1
+{
+    width: 288px;
+    height: 100px;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.09);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 @media (max-width:510px)
 {
+    .img7
+    {
+        width: 50%;
+    }
+    .img8
+    {
+        width: 20%;
+    }
+    .item1
+    {
+        width: 154px;
+        height: 53px;
+    }
+    .gridkati
+    {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto auto;
+        gap: 20px;
+    }
+    .box14
+    {
+        width: 90%;
+        margin: auto;
+    }
     .nest
     {
         display: none;
