@@ -499,9 +499,82 @@ header
     flex-direction: column;
     row-gap: 30px;
 }
+.box9
+{
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.cardKalon1
+{
+    padding: 45px;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.09);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.pSiyohtarak
+{
+    font-size: 20px;
+}
+.hr1
+{
+    border: none;
+    height: 1px;
+    background-color: rgba(227, 227, 227, 1);
+    width: 135%;
+    position: relative;
+    right: 45px;
+}
+.rowrow
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cardKalonho
+{
+    display: flex;
+    justify-content: space-between;
+}
+.divSurat
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+.h6
+{
+    text-align: center;
+}
 
 @media (max-width:510px)
 {
+    .h6
+    {
+        text-align: start;
+    }
+    .divSurat
+    {
+        flex-direction: row;
+        gap: 20px;
+    }
+    .cardKalonho
+    {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .box9
+    {
+        width: 90%;
+        margin: auto;
+        margin-top: 100px;
+    }
     .card5
     {
         width: 90%;
