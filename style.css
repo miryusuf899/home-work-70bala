@@ -607,9 +607,52 @@ header
     display: flex;
     gap: 10px;
 }
+.box13
+{
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.inBox11
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.buttonkulula
+{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(42, 121, 194, 1);
+    border: none;
+    border-radius: 50%;
+}
+.cardOdam1
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+    width: 220px;
+    text-align: center;
+}
 
 @media (max-width:510px)
 {
+    .nest
+    {
+        display: none;
+    }
+    .box13
+    {
+        width: 90%;
+        margin: auto;
+        margin-top: 100px;
+    }
     .img6
     {
         width: 50%;
@@ -617,6 +660,7 @@ header
     .box12
     {
         width: 100%;
+        gap: 0px;
     }
     .img5
     {
