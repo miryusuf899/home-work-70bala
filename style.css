@@ -162,6 +162,7 @@ header
 {
     text-align: center;
     line-height: 25px;
+    color: rgb(66, 65, 65);
 }
 .sheficard
 {
@@ -482,9 +483,47 @@ header
     left: 60%;
     top: 20%;
 }
+.inBox8
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 20px;
+}
+.box8
+{
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
 
 @media (max-width:510px)
 {
+    .card5
+    {
+        width: 90%;
+    }
+    .box8
+    {
+        width: 90%;
+        margin: auto;
+        margin-top: 100px;
+    }
+    .inBox8
+    {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 20px;
+        margin: auto;
+    }
+    .pMobain
+    {
+        text-align: center;
+    }
     .positonImage
     {
         width: 100%;
